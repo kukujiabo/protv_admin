@@ -8,19 +8,7 @@ use App\Library\RedisClient;
  *
  * @author Meroc Chen <398515393@qq.com> 2018-03-02
  */
-class AlbumDm {
-
-  protected $_admin;
-
-  public function __construct() {
-  
-    $requestHeader = getallheaders();
-  
-    $auth = RedisClient::get('admin_auth', $requestHeader['AX-TOKEN']);
-
-    $this->_admin = $auth;
-
-  }
+class AlbumDm extends BaseDm  {
 
   /**
    * 添加专辑

@@ -6,7 +6,7 @@ namespace App\Domain;
  *
  * @author Meroc Chen <398515393@qq.com> 2018-03-03
  */
-class VideoCategoryDm {
+class VideoCategoryDm extends BaseDm {
 
   /**
    * 添加分类

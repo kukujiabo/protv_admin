@@ -40,7 +40,7 @@ class AuthorityFilter implements Filter {
          * 获取请求的所有头部信息
          */
 
-        $headers = getallheaders();
+        $headers = \getallheaders();
 
         if (!$headers['AX-TOKEN'] || strlen($headers['AX-TOKEN']) != 64) {
         

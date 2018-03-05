@@ -6,7 +6,7 @@ namespace App\Domain;
  *
  * @author Meroc Chen <398515393@qq.com> 2018-02-08
  */
-class QiniuDm {
+class QiniuDm extends BaseDm {
 
   /**
    * 编辑配置
