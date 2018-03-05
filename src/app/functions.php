@@ -8,7 +8,7 @@ use App\Library\ApiRequest;
 
 if (!function_exists('getallheaders')) { 
   
-  function getallheaders() { 
+  function \getallheaders() { 
 
     $headers = []; 
 
