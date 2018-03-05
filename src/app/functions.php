@@ -6,6 +6,7 @@ use App\Library\Verification;
 use PhalApi\Exception;
 use App\Library\ApiRequest;
 
+
 if (!function_exists('getallheaders')) { 
   
   function \getallheaders() { 
@@ -27,7 +28,6 @@ if (!function_exists('getallheaders')) {
   } 
 
 }
-
 /**
 * 验证API接口返回信息
 */
