@@ -35,15 +35,16 @@ class Album extends BaseApi {
         'brief' => 'brief|string|false||专辑简介',
         'cover' => 'cover|string|false||专辑缩略图',
         'introduction' => 'introduction|string|false||专辑图文内容',
-        'status' => 'status|int|false||专辑状态'
+        'status' => 'status|string|false||专辑状态'
       
       ],
 
       'listQuery' => [
       
-        'member_id' => 'member_id|int|false||会员id',
         'title' => 'title|string|false||专辑标题',
-        'status' => 'status|int|false||专辑状态',
+        'status' => 'status|string|false||专辑状态',
+        'album_type' => 'album_type|int|false||专辑类型',
+        'author_name' => 'author_name|string|false||专辑名称',
         'all' => 'all|int|false||是否全部',
         'page' => 'page|int|false||页码',
         'page_size' => 'page_size|int|false||每页条数'
