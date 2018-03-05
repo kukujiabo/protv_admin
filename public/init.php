@@ -34,7 +34,7 @@ if (\PhalApi\DI()->debug) {
 
 if (!function_exists('getallheaders')) { 
   
-  function \getallheaders() { 
+  function getallheaders() { 
 
     $headers = []; 
 
